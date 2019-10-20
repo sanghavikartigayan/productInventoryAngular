@@ -61,7 +61,7 @@
   "main": "karma.conf.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sanghavikartigayan/productInventoryAngular.git"
+    "url": "git+https://github.com/sanghavikartigayan/productInventoryAngular.git"
   },
   "keywords": [
     "angular"
