@@ -1,6 +1,6 @@
 {
   "name": "product-inventory",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,16 +11,29 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~8.2.11",
+    "@angular/animations": "^7.0.1",
+    "@angular/cdk": "^7.0.2",
     "@angular/common": "~8.2.11",
     "@angular/compiler": "~8.2.11",
     "@angular/core": "~8.2.11",
+    "@angular/flex-layout": "^7.0.0-beta.19",
     "@angular/forms": "~8.2.11",
+    "@angular/material": "^7.0.2",
     "@angular/platform-browser": "~8.2.11",
     "@angular/platform-browser-dynamic": "~8.2.11",
     "@angular/router": "~8.2.11",
+    "@okta/jwt-verifier": "0.0.14",
+    "@okta/okta-angular": "1.0.7",
+    "@types/cors": "2.8.4",
+    "@types/express": "4.16.0",
+    "cors": "2.8.4",
+    "express": "4.16.4",
+    "express-bearer-token": "2.2.0",
     "rxjs": "~6.4.0",
+    "sqlite3": "4.0.3",
+    "tsc": "1.20150623.0",
     "tslib": "^1.10.0",
+    "typeorm": "0.2.8",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
@@ -28,9 +41,9 @@
     "@angular/cli": "~8.3.12",
     "@angular/compiler-cli": "~8.2.11",
     "@angular/language-service": "~8.2.11",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -42,6 +55,21 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
-  }
+    "typescript": "3.4.5"
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sanghavikartigayan/productInventoryAngular.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Sanghavi Kartigayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanghavikartigayan/productInventoryAngular/issues"
+  },
+  "homepage": "https://github.com/sanghavikartigayan/productInventoryAngular#readme"
 }
